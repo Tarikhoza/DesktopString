@@ -8,7 +8,7 @@ LogFile.open("dat.txt", fstream::app);
 if (LogFile.is_open()) {
 LogFile << input;
 LogFile.close();
-	}
+}
 }
 int main()
 {
@@ -19,6 +19,6 @@ LogFile.open("log.txt", fstream::app);
 if (LogFile.is_open()) {
 LogFile << string(output);
 LogFile.close();
-					}
+}
 }
 
