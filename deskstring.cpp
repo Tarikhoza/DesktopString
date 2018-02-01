@@ -1,9 +1,7 @@
 #include <iostream>
 #include <string>
 #include <fstream>
-
 using namespace std;
-
 void LOG(string input) {
 	fstream LogFile;
 	LogFile.open("dat.txt", fstream::app);
@@ -12,23 +10,15 @@ void LOG(string input) {
 		LogFile.close();
 	}
 }
-
-
-
 int main()
 {
 	string output;
     cin>>output;
-	
 					fstream LogFile;
 					LogFile.open("dat.txt", fstream::app);
 					if (LogFile.is_open()) {
 						LogFile << string(output);
 						LogFile.close();
 					}
-
-				
-
-	return 0;
 }
 
