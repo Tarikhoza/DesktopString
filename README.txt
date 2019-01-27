@@ -1,3 +1,5 @@
+#TicTacToe
+TicTacToe Terminal game for Windows.
 Just download and compile.
 You control the cursor whit the numBlock.
 7 8 9
